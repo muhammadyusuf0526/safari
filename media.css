@@ -1,0 +1,414 @@
+@media(max-width: 1200px) {
+    .header__title {
+        font-size: 60px;
+    }
+
+
+    .directions__inner {
+        padding              : 0 20px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .places__wrapper {
+        padding: 0 20px;
+    }
+
+    .popular__wrapper {
+        padding              : 0 20px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .popular__title {
+        margin-bottom: 20px;
+    }
+
+    .popular__wrapper {
+        grid-template-rows: repeat(8, 1fr);
+    }
+
+    .about__inner {
+        padding       : 0 20px;
+        display       : flex;
+        flex-direction: column;
+    }
+
+    .about__text {
+        text-align: justify;
+    }
+
+    .about__link {
+        display      : inline-block;
+        margin-bottom: 20px;
+    }
+
+    .about__video,
+    .about__poster {
+        width: 100%;
+    }
+
+    .about {
+        padding: 30px 0;
+    }
+
+    .about__title {
+        text-align: center;
+    }
+
+    .gallery__title {
+        font-size: 25px;
+    }
+
+    .gallery__link {
+        font-size: 25px;
+    }
+
+    .gallery__prev {
+        font-size: 25px;
+    }
+
+    .gallery__next {
+        font-size: 25px;
+    }
+    .gallery__wrapper img{
+        width: 100%;
+    }
+    .gallery__wrapper{
+        grid-gap: 10px;
+    }
+    .gallery__inner{
+        padding: 0 20px;
+    }
+    .tour__desc{
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    .tour__desc p{
+        max-width: none;
+        width: 100%;
+        text-align: justify;
+    }
+    .tour__stat{
+        font-size: 40px;
+    }
+    .footer__wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .directions__inner {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .places__wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .gallery__wrapper img {
+        width: 100%;
+    }
+
+    .gallery__wrapper {
+        display              : grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows   : repeat(3, 1fr);
+        grid-gap             : 15px;
+    }
+    .tour__stat{
+        font-size: 35px;
+    }
+    .tour__stat p{
+        font-size: 15px;
+    }
+    .feedback__title{
+        font-size: 30px;
+        line-height: 20px;
+    }
+    .agreement__btn{
+        font-size: 13px;
+        padding: 20px 30px;
+        border-radius: 30px;
+    }
+
+  
+}
+
+@media (max-width: 760px) {
+    .booking__contact {
+        width          : 100%;
+        display        : flex;
+        flex-direction : row;
+        align-items    : center;
+        justify-content: center;
+    }
+
+    .logo {
+        margin: 15px auto;
+    }
+
+    .places__title {
+        font-size    : 25px;
+        margin-bottom: 20px;
+    }
+
+    .places__name {
+        font-size: 12px;
+    }
+
+    .popular__card_price {
+        font-size: 20px;
+    }
+
+    .popular__wrapper {
+        grid-gap: 5px;
+    }
+
+    .map__title {
+        font-size    : 25px;
+        margin-bottom: 20px;
+    }
+    .gallery__title{
+        font-size    : 20px;
+      
+    }
+    .gallery__link{
+font-size: 12px;
+    }
+   .about__play {
+    width: 50px;
+    top  : 42.5%;
+    left : 42.5%;
+
+}       
+.tour__stat{
+    font-size: 30px;
+}
+.feedback__title{
+    font-size: 25px;
+}
+.agreement__link{
+    font-size: 13px;
+}
+.agreement{
+    flex-direction: column-reverse;
+}
+.agreement__btn{
+  margin-top: 20px;
+}
+
+
+}
+
+                                                                                                             
+
+@media (max-width: 640px) {
+    .header__title {
+        font-size: 40px;
+    }
+
+    .booking__text,
+    .menu__link,
+    .header__text,
+    .booking__tel,
+    .header__btn {
+        font-size: 12px;
+    }
+
+    .booking__tel,
+    .header__btn {
+        padding: 10px 20px;
+    }
+
+    .header__text {
+        max-width: 250px;
+    }
+
+    .header__arrow {
+        margin-top: 10px;
+    }
+
+    .header__arrow img {
+        width: 30px;
+    }
+
+    .directions__inner {
+        grid-template-columns: 1fr;
+    }
+
+    .directions {
+        padding: 30px 0;
+    }
+
+    .places__wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .places__item {
+        display       : flex;
+        flex-direction: column;
+        align-items   : center;
+    }
+
+    .places__name {
+        text-align: center;
+    }
+
+    .popular__card_title {
+        font-size: 12px;
+    }
+
+    .popular__card_price {
+        font-size: 12px;
+    }
+
+    .popular__card_text {
+        font-size: 10px;
+    }
+
+    .popular__title {
+        font-size: 30px;
+    }
+    .gallery__wrapper{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+    .gallery__title{
+      width: 100%;
+      text-align: center;
+            }
+            .gallery__link{
+        margin: 0;
+        margin-right: auto;
+            }
+            .gallery__prev, .gallery__next{
+                width: 30px;
+            }
+            .gallery__top{
+                flex-wrap: wrap;
+            }
+.tour__stats{
+    flex-direction: column;
+}
+.tour__desc p{
+    font-size: 15px;
+}
+.tour__title{
+    font-size: 20px;
+    margin: 20px 0 20px;
+   
+}
+.tour{
+    padding: 30px 0;
+}
+.feedback__form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    grid-gap: 20px;
+   }
+   .feedback__title{
+       font-size: 20px;
+   }
+   .agreement__btn{
+       font-size: 11px;
+       padding: 20px 20px;
+   }
+   .logo{
+       font-size: 15px;
+   }
+}
+
+
+@media (max-width: 405px) {
+    .menu {
+        flex-wrap      : wrap;
+        font-size      : 10px;
+        justify-content: space-evenly;
+    }
+
+    .header__title {
+        font-size: 25px;
+    }
+
+    .booking__text,
+    .header__btn {
+        font-size: 10px;
+    }
+
+    .logo__text {
+        font-size: 14px;
+    }
+
+    .logo__title {
+        font-size: 16px;
+    }
+
+    .booking__tel,
+    .header__btn {
+        padding: 5px 15px;
+    }
+
+    .menu {
+        padding: 10px 0;
+    }
+
+    .menu__link {
+        margin: 10px 15px;
+    }
+
+    .booking__text {
+        margin-right: 15px;
+    }
+
+    .places__wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .places {
+        padding: 30px;
+    }
+
+    .popular__card_title {
+        font-size: 10px;
+    }
+
+    .popular__card_price {
+        font-size: 10px;
+    }
+
+    .popular__title {
+        font-size: 15px;
+    }
+
+    .popular__card_desc,
+    .popular__big_card {
+        padding: 10px;
+    }
+
+    .map__title {
+        font-size: 20px;
+    }
+    .gallery__prev{
+        margin-left: 10px;
+        font-size: 10px;
+    }
+    .gallery__next{
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width: 390px) {
+    .popular__card_title {
+        font-size: 5px;
+    }
+    .gallery__title{
+        margin-left: 30px;
+    }
+
+}
